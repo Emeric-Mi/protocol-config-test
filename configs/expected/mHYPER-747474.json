@@ -1,0 +1,19 @@
+{
+  "_meta": {
+    "exportedAt": "2026-03-02T23:26:17.285Z",
+    "token": "mHYPER",
+    "chainId": "747474"
+  },
+  "oracle": {
+    "tolerance": "35000000",
+    "minAnswer": "10000000",
+    "maxAnswer": "100000000000"
+  },
+  "oft": {
+    "sharedDecimals": "",
+    "owner": "0xB60842E9DaBCd1C52e354ac30E82a97661cB7E89",
+    "peers": {
+      "30101": "0x148C86390A4ae6f7a02df5903bc0A89E8b4581A0"
+    }
+  }
+}

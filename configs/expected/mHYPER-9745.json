@@ -1,0 +1,50 @@
+{
+  "_meta": {
+    "exportedAt": "2026-03-02T23:24:25.285Z",
+    "token": "mHYPER",
+    "chainId": "9745"
+  },
+  "oracle": {
+    "tolerance": "35000000",
+    "minAnswer": "10000000",
+    "maxAnswer": "100000000000"
+  },
+  "dv": {
+    "feeRecipient": "0xee67Ec0e51dDd154C0cd904A326822e3F31586F3",
+    "tokensReceiver": "0xF356c5e9F69DaDB332Bb098C7Ed960Db1d3376DD",
+    "instantFee": "0",
+    "sanctionsList": "0x0000000000000000000000000000000000000000",
+    "greenlistEnabled": "false",
+    "variationTolerance": "65",
+    "maxSupplyCap": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "instantDailyLimit": "20000000000000000000000000",
+    "minMTokenAmountForFirstDeposit": "0",
+    "paymentTokens": [
+      "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    ]
+  },
+  "rv": {
+    "feeRecipient": "0x5278dC8b75063efda4760D7dB71328ee74D527e5",
+    "tokensReceiver": "0xF356c5e9F69DaDB332Bb098C7Ed960Db1d3376DD",
+    "requestRedeemer": "0xA4fC2c65643b67fFDbf5cb0b528A10E771F1F159",
+    "instantRedeemFee": "50",
+    "sanctionsList": "0x0000000000000000000000000000000000000000",
+    "greenlistEnabled": "false",
+    "variationTolerance": "65",
+    "instantDailyLimit": "200000000000000000000000000",
+    "fiatFlatFee": "30000000000000000000",
+    "fiatAdditionalFee": "10",
+    "paymentTokens": [
+      "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb"
+    ]
+  },
+  "pausedFunctions": {
+    "dv": {
+      "0x6e26b9f8": true,
+      "0xe50e3dbb": true
+    },
+    "rv": {
+      "0xd5f73f5c": true
+    }
+  }
+}
