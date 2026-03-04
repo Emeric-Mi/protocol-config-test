@@ -52,6 +52,14 @@
   "oft": {
     "sharedDecimals": "9",
     "owner": "0xB60842E9DaBCd1C52e354ac30E82a97661cB7E89",
-    "peers": {}
+    "minterBurner": "0x148C86390A4ae6f7a02df5903bc0A89E8b4581A0",
+    "endpoint": "0x1a44076050125825900e736c501f859c50fE728c",
+    "peers": {
+      "30390": "0x08BC5Ef2E2Afe697614bf3A9eaA71dcBb577f2Df",
+      "30375": "0x0516DeD0209874FA9381Ee721E8f1BCbe6eC2832"
+    },
+    "rateLimits": {
+      "30390": { "limit": "2000000000000000000000000", "window": "86400" }
+    }
   }
 }
